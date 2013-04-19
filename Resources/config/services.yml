@@ -1,0 +1,11 @@
+parameters:
+    import.data.class:       Ghazy\ImportBundle\Command\Proxy\Data
+    import.dataloader.class: Ghazy\ImportBundle\Command\Proxy\DataLoader
+
+services:
+    data:
+        class:        "%import.data.class%"
+        arguments:    [@database_connection]
+    data_loader:
+        class:        "%import.dataloader.class%"
+        arguments:    [@doctrine.orm.entity_manager, @data]

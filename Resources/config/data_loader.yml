@@ -1,0 +1,15 @@
+fixtures:
+  table:
+    entity: 'Ghazy\ExempleBundle\Entity\Exemple'
+    entity_name: 'exemple'
+    mapping:
+      id:
+        nativeColumn: 'id'
+      name:
+        nativeColumn: 'nom' 
+      createdAt:
+        type: dateTime
+        nativeColumn: 'created'
+      category:
+        type: ref
+        nativeColumn: 'category_id'
