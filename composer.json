@@ -1,6 +1,6 @@
 {
     "name": "ghazy/import-bundle",
-    "description": "GhazyImportBundle Is a Symfony2 Bundle than allow you to import your classic mysql database to a doctrine2 generated database."
+    "description": "GhazyImportBundle Is a Symfony2 Bundle than allow you to import your classic mysql database to a doctrine2 generated database.",
     "keywords": ["symfony2","doctrine","import"],
     "homepage": "https://github.com/bghazy/GhazyImportBundle",
     "license": "MIT",
