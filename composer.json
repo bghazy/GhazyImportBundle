@@ -1,0 +1,25 @@
+{
+    "name": "ghazy/import-bundle",
+    "description": "GhazyImportBundle Is a Symfony2 Bundle than allow you to import your classic mysql database to a doctrine2 generated database."
+    "keywords": ["symfony2",doctrine","import"],
+    "homepage": "https://github.com/bghazy/GhazyImportBundle",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ghazy Ben Ahmed",
+            "email": "contact@ghazybenahmed.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/common": ">=2.1,<2.4.x-dev"
+    },
+    "target-dir": "Ghazy/ImportBundle",
+    "autoload": {
+        "psr-0": {
+            "Ghazy\\ImportBundle": ""
+        }
+    }
+}
